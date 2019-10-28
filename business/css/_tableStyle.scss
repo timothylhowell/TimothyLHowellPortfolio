@@ -1,0 +1,26 @@
+table.products {
+    color: $textColor;
+    margin-left: auto;
+    margin-right: 5%;
+    margin-top: -21%;
+    width: 50%;
+    caption-side: bottom;
+    thead {
+        background-color: $accentColor;
+    }
+    tfoot {
+        background-color: $secondaryColor;
+    }
+    tbody#spring {
+        background-color: green;
+    }
+    tbody#summer {
+        background-color: orangered;
+    }
+    tbody#fall {
+        background-color: yellow;
+    }
+    tbody#winter {
+        background-color: lightblue;
+    }
+}

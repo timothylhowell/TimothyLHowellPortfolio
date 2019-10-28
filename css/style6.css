@@ -1,0 +1,19 @@
+@charset "utf-8";
+/*
+   Timothy Howell Portfolio
+   Author: Timothy Howell
+   Filename: style6.css
+*/
+
+
+div#snakeGame h4 {
+    color: white;
+}
+
+div#calculator h4 {
+    color: white;
+}
+
+div#waterTextCSS h4 {
+    color: white;
+}

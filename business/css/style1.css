@@ -1,0 +1,488 @@
+body {
+  background-image: url(../image/backgroundOne.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1#adminHeading {
+    text-shadow: 2px 2px black;
+}
+
+
+
+header div.navigation {
+  overflow: hidden;
+  position: static;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#D2E4C4), to(#61a367));
+  background-image: linear-gradient(to bottom right, #D2E4C4, #61a367);
+  text-align: right;
+  font-size: 3em;
+  clear: both;
+}
+
+header div.navigation img {
+  float: left;
+  border-radius: 50%;
+  width: 15%;
+  margin-right: 10%;
+}
+
+header div.navigation p#businessName {
+  color: black;
+  font-style: italic;
+  text-align: left;
+}
+
+header div.navigation a {
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header div.navigation a:link {
+  color: #818479;
+}
+
+header div.navigation a:visited {
+  color: #978c55;
+}
+
+main div#mainSection {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #D2E4C4;
+  border-radius: 15%;
+  width: 70%;
+}
+
+main div#mainSection h1 {
+  font-size: 2em;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+main div#mainSection h2 {
+  text-align: center;
+}
+
+main div#mainSection p {
+  margin-left: 15%;
+  margin-right: auto;
+  text-align: justify;
+}
+
+main div#mainSection figure#basketFigure {
+  margin-left: 2.5%;
+  margin-right: auto;
+}
+
+main div#mainSection figure#basketFigure img#basketImage {
+  width: 25%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-box-shadow: -3px -1px 21px 9px rgba(0, 0, 0, 0.37);
+  box-shadow: -3px -1px 21px 9px rgba(0, 0, 0, 0.37);
+  border-radius: 20px;
+  border: 1px solid black;
+  -webkit-transform: skewY(-5deg);
+          transform: skewY(-5deg);
+}
+
+main div#mainSection figure#basketFigure figcaption#basketCaption {
+  margin-left: 8%;
+  width: 7%;
+  font-style: italic;
+  background-color: #E4E9B2;
+}
+
+div.navigation a {
+  color: #818479;
+  text-shadow: 1px -1px 1px black;
+  -webkit-transform: scale(1, 1) translateY(0px);
+          transform: scale(1, 1) translateY(0px);
+  -webkit-transition: all .7s linear;
+  transition: all .7s linear;
+}
+
+div.navigation a:hover {
+  color: #978c55;
+  text-shadow: 0px 15px 4px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(2, 2) translateY(-15px);
+          transform: scale(2, 2) translateY(-15px);
+}
+
+@-webkit-keyframes colorTransition {
+  0% {
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+  }
+  10% {
+    -webkit-filter: grayscale(80%);
+            filter: grayscale(80%);
+  }
+  20% {
+    -webkit-filter: grayscale(60%);
+            filter: grayscale(60%);
+  }
+  30% {
+    -webkit-filter: grayscale(40%);
+            filter: grayscale(40%);
+  }
+  40% {
+    -webkit-filter: grayscale(20%);
+            filter: grayscale(20%);
+  }
+  50% {
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+  }
+  60% {
+    -webkit-filter: grayscale(20%);
+            filter: grayscale(20%);
+  }
+  70% {
+    -webkit-filter: grayscale(40%);
+            filter: grayscale(40%);
+  }
+  80% {
+    -webkit-filter: grayscale(60%);
+            filter: grayscale(60%);
+  }
+  90% {
+    -webkit-filter: grayscale(80%);
+            filter: grayscale(80%);
+  }
+  100% {
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+  }
+}
+
+@keyframes colorTransition {
+  0% {
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+  }
+  10% {
+    -webkit-filter: grayscale(80%);
+            filter: grayscale(80%);
+  }
+  20% {
+    -webkit-filter: grayscale(60%);
+            filter: grayscale(60%);
+  }
+  30% {
+    -webkit-filter: grayscale(40%);
+            filter: grayscale(40%);
+  }
+  40% {
+    -webkit-filter: grayscale(20%);
+            filter: grayscale(20%);
+  }
+  50% {
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+  }
+  60% {
+    -webkit-filter: grayscale(20%);
+            filter: grayscale(20%);
+  }
+  70% {
+    -webkit-filter: grayscale(40%);
+            filter: grayscale(40%);
+  }
+  80% {
+    -webkit-filter: grayscale(60%);
+            filter: grayscale(60%);
+  }
+  90% {
+    -webkit-filter: grayscale(80%);
+            filter: grayscale(80%);
+  }
+  100% {
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+  }
+}
+
+div.navigation img#headImage {
+  -webkit-animation: colorTransition 15s linear infinite;
+          animation: colorTransition 15s linear infinite;
+}
+
+table.products {
+  color: black;
+  margin-left: auto;
+  margin-right: 5%;
+  margin-top: -21%;
+  width: 50%;
+  caption-side: bottom;
+}
+
+table.products thead {
+  background-color: #E4E9B2;
+}
+
+table.products tfoot {
+  background-color: #61a367;
+}
+
+table.products tbody#spring {
+  background-color: green;
+}
+
+table.products tbody#summer {
+  background-color: orangered;
+}
+
+table.products tbody#fall {
+  background-color: yellow;
+}
+
+table.products tbody#winter {
+  background-color: lightblue;
+}
+
+/*
+Contact Form
+*/
+form#feedback {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  width: 100%;
+}
+
+h1#contactHeading {
+  text-shadow: 2px 2px grey;
+}
+
+form#feedback > fieldset {
+  background-color: #D2E4C4;
+  border-radius: 20px;
+  border-color: black;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 300px;
+          flex: 1 1 300px;
+  font-size: 0.85em;
+  padding: 10px;
+  margin: 10px;
+}
+
+div.formRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin: 7px 0px;
+  color: black;
+}
+
+div.formRow > * {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 150px;
+          flex: 1 1 150px;
+}
+
+/* Legend Styles */
+legend {
+  background-color: #E4E9B2;
+  color: black;
+}
+
+/* Text Area Styles */
+textarea {
+  margin-top: 10px;
+  height: 100px;
+  width: 95%;
+}
+
+/* Form Button Styles */
+div#buttons {
+  text-align: center;
+  width: 100%;
+}
+
+input[type='submit'], input[type='reset'] {
+  font-size: 1.2em;
+  padding: 5px;
+  margin: 15px;
+}
+
+/*Validation*/
+input:focus, select:focus, textarea:focus {
+  background-color: #dcffdc;
+}
+
+input#name:focus:valid,
+input#phone:focus:valid,
+input#mail:focus:valid {
+  background: #dcffdc;
+}
+
+input#name:focus:invalid,
+input#phone:focus:invalid,
+input#mail:focus:invalid {
+  background: #ffe8e9;
+}
+
+
+
+
+/*
+Contact Form
+*/
+form#newsletter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  width: 100%;
+}
+
+h1#contactHeading {
+  text-shadow: 2px 2px grey;
+}
+
+form#newsletter > fieldset {
+  background-color: #D2E4C4;
+  border-radius: 20px;
+  border-color: black;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 300px;
+          flex: 1 1 300px;
+  font-size: 0.85em;
+  padding: 10px;
+  margin: 10px;
+}
+
+div.newsRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin: 7px 0px;
+  color: black;
+}
+
+div.newsRow > * {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 150px;
+          flex: 1 1 150px;
+}
+
+/*Validation*/
+input:focus, select:focus, textarea:focus {
+  background-color: #dcffdc;
+}
+
+input#nameFirst:focus:valid,
+input#nameLast:focus:valid,
+input#mailNews:focus:valid {
+  background: #dcffdc;
+}
+
+input#nameFirst:focus:invalid,
+input#nameLast:focus:invalid,
+input#mailNews:focus:invalid {
+  background: #ffe8e9;
+}
+
+/*
+Login page
+*/
+h1#loginHeading {
+  text-shadow: 2px 2px grey;
+}
+form#login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  width: 100%;
+}
+form#login > fieldset {
+  background-color: #D2E4C4;
+  border-radius: 20px;
+  border-color: black;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 300px;
+          flex: 1 1 300px;
+  font-size: 0.85em;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+
+/*=====================================
+  Mobile Styles: 0px to 480px
+  =====================================
+*/
+@media only screen and (max-width: 480px) {
+  body {
+    background-image: none;
+    background-color: #D2E4C4;
+  }
+  div.navigation {
+    font-size: 1.5em;
+  }
+  div.navigation img {
+    display: none;
+  }
+  div.navigation a {
+    font-size: 0.7em;
+  }
+  div#mainSection {
+    width: 100%;
+  }
+  div#mainSection p {
+    text-align: left;
+    font-size: 10pt;
+  }
+  div#mainSection figure {
+    display: none;
+  }
+}
+
+/*=====================================
+  Tablet Styles: 481px to 768px
+  =====================================
+*/
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+  div.navigation {
+    font-size: 2em;
+  }
+  div.navigation img {
+    width: 10%;
+  }
+  div.navigation p {
+    width: 100%;
+  }
+  div#mainSection p {
+    width: 65%;
+    margin-left: 5%;
+  }
+  div#mainSection figure#basketFigure figcaption#basketCaption {
+    font-size: 8pt;
+  }
+  table.products {
+    margin-right: 10%;
+  }
+}
+/*# sourceMappingURL=style1.css.map */

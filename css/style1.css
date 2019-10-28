@@ -1,0 +1,96 @@
+@charset "utf-8";
+@font-face {
+	font-family: Arvo;
+	src: url('../fonts/Arvo-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: Comprehension;
+	src: url('../fonts/Comprehension-SemiBold.otf') format('opentype');
+}
+
+/*
+   Timothy Howell Portfolio
+   Author: Timothy Howell
+   Filename: style1.css
+*/
+
+/*
+Body, Main, and/or HTML
+*/
+
+body {
+	background-color: #669999;
+	color: black;
+}
+
+
+/*
+Images
+*/
+
+
+
+img#self {
+	height: 250px;
+        width: 250px;
+	float: right;
+	position: relative;
+}
+
+/*
+Page top navigation
+*/
+
+div.navigation {
+	overflow: hidden;
+	background-color: #006699;
+	text-align: center;
+	font-size: 3em;
+	font-family: Comprehension;
+}
+
+div.navigation a {
+
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	text-decoration: none;
+}
+
+a:link {
+	color: #003333;
+}
+
+a:visited {
+	color: #330000;
+}
+
+/*
+Main section
+*/
+
+main {
+	font-family: Arvo;
+	text-align: center;
+}
+
+/*
+Footer section
+*/
+
+footer {
+	position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	background-color: #006699;
+	text-align: center;
+	
+}
+
+footer > a > img {
+		height: auto;
+	}

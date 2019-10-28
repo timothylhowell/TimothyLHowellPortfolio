@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+    <head>
+        <!--
+            Timothy Howell Portfolio
+            Author: Timothy Howell
+            Filename: contact.html
+        -->
+        <meta charset="utf-8" />
+        <meta name="description" content="Example Business Contact Page">
+        <meta name="author" content="Timothy Howell">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Contact</title>
+        <link href="css/style1.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <div class="navigation"> 
+                <img src="image/produceOne.jpg" alt="Produce Stand" >
+                <p id="businessName">Business Corp. Produce</p>
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="newsletter.html">E-Newsletter</a>
+                <a href="listemployees.php">Employee List</a>
+                <a href="login.php">ADMIN</a>
+            </div>
+        </header>
+        <main>
+            <div id="mainSection">
+                <h1 id="contactHeading">Contact Us</h1>
+                <form id="feedback" method="post" action="businesscontactthanks.php" >
+
+                    <fieldset id="custInfo">
+                        <legend>Feedback (All fields are required)</legend>
+
+                        <div class="formRow">
+                            <label for="order">Reason for Contacting</label>
+                            <select name="contactReason" id="reason">
+                                <option value="Comment" selected>Comment</option>
+                                <option value="Question">Question</option>
+                                <option value="Complaint">Complaint</option>
+                                <option value="Special Request">Special Request</option>
+                            </select>
+                        </div>
+
+                        <div class="formRow">
+                            <label for="name"> Name</label>
+                            <input name="userName" id="name" type="text" placeholder="Your Name" required />
+                        </div>
+
+                        <div class="formRow">
+                            <label for="mail">E-Mail</label>
+                            <input name="userEmail" id="mail" type="email" placeholder="example@mail.com" required />
+                        </div>
+
+                        <div class="formRow">
+                            <label for="phone">Contact Number</label>
+                            <input name="custPhone" id="phone" type="tel" placeholder="(xxx) xxx-xxxx" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" required />
+                        </div>
+
+
+                        <label for="commBox">Please enter any comments, questions, complaints, or requests you have here:</label>
+                        <textarea name="userFeedback" id="commBox" required></textarea>
+
+                    </fieldset>
+                    <div id="buttons">
+                        <input type="submit" value="Send">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>

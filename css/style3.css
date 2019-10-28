@@ -1,0 +1,70 @@
+/*
+   Timothy Howell Portfolio
+   Author: Timothy Howell
+   Filename: style3.css
+*/
+
+/*
+Contact Form
+*/
+
+form#feedback {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+form#feedback > fieldset {
+	background-color: #669999;
+	border-radius: 20px;
+	border-color: black;
+	-webkit-flex: 1 1 300px;
+	flex: 1 1 300px;
+	font-size: 0.85em;
+	padding: 10px;
+	margin: 10px;
+}
+
+div.formRow {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	margin: 7px 0px;
+	color: black;
+}
+
+div.formRow > * {
+	-webkit-flex: 1 1 150px;
+	flex: 1 1 150px;
+}
+
+/* Legend Styles */
+
+legend {
+	background-color: #669999;
+	color: black;
+}
+
+
+
+/* Text Area Styles */
+
+textarea {
+	margin-top: 10px;
+	height: 100px;
+	width: 95%;
+}
+
+/* Form Button Styles */
+div#buttons {
+	text-align: center;
+	width: 100%;
+}
+
+input[type='submit'], input[type='reset'] {
+	font-size: 1.2em;
+	padding: 5px;
+	margin: 15px;
+}

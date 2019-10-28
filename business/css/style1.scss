@@ -1,0 +1,102 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+
+body {
+    background-image: url(../image/backgroundOne.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    div.navigation {
+        overflow: hidden;
+        position: static;
+        @include easyGradient;
+        text-align: right;
+        font-size: 3em;
+        clear: both;
+        
+        img {
+            float: left;
+            border-radius: 50%;
+            width: 15%;
+            margin-right: 10%;
+        }
+
+        & p#businessName {
+            color: $textColor;
+            font-style: italic;
+            text-align: left;
+        }
+        a {
+    
+            padding: 14px 16px;
+            text-decoration: none;
+            &:link {
+                color: $linkColor;
+            }
+            &:visited {
+                color: $clickedLinkColor;
+            }
+        }
+    }    
+}
+
+main {
+    div#mainSection {
+        margin-left: auto;
+        margin-right: auto; 
+        background-color: $mainColor;
+        border-radius: 15%;
+        width: 70%;
+        h1 {
+            font-size: 2em;
+            margin-bottom: 35px;
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+        }
+        p {
+            margin-left: 15%; 
+            margin-right: auto;
+            text-align: justify;
+        }
+
+        figure#basketFigure {
+            margin-left: 2.5%;
+            margin-right: auto;
+            
+            img#basketImage {
+                width: 25%;
+                -webkit-filter: grayscale(100%);
+                filter: grayscale(100%);
+                @include easyBoxShadow;
+                border-radius: 20px;
+                border: 1px solid black;
+                transform: skewY(-5deg);
+            }
+            figcaption#basketCaption {
+                margin-left: 8%;
+                width: 7%;
+                font-style: italic;
+                background-color: $accentColor;
+            }
+        }
+    
+    } 
+}
+
+
+
+
+
+
+
+
+@import "_animationStyle.scss";
+@import "_tableStyle.scss";
+@import "_contactStyle.scss";
+@import "_newsletterStyle.scss";
+@import "_mediaStyles.scss";

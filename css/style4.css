@@ -1,0 +1,28 @@
+/*
+   Timothy Howell Portfolio
+   Author: Timothy Howell
+   Filename: style2.css
+*/
+
+/*
+Headings
+*/
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+
+/*
+Lists
+*/
+
+ul {
+	text-align: center;
+	list-style-type: circle;
+	list-style-position: inside;
+}

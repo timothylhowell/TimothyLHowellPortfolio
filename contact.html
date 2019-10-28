@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head>
+        <!--
+            Timothy Howell Portfolio
+            Author: Timothy Howell
+            Filename: contact.html
+        -->
+        <meta charset="utf-8" />
+        <meta name="description" content="Timothy Howell's personal portfolio">
+        <meta name="author" content="Timothy Howell">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Contact</title>
+        <link href="css/style1.css" rel="stylesheet" />
+        <link href="css/style3.css" rel="stylesheet" />
+        <link href="css/style5.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <div class="navigation">
+                <a href="index.html">Home</a>
+                <a href="experience.html">Experience</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+                <a href="videos.html">Favorite Videos</a>
+                <a href="business/index.html">Example Business</a>
+            </div>
+        </header>
+        <main>
+            <h1>Contact and Feedback</h1>
+            <form id="feedback" method="post" action="thankyou.php" >
+
+                <fieldset id="custInfo">
+                    <legend>Feedback</legend>
+
+                    <div class="formRow">
+                        <label for="name"> Name</label>
+                        <input name="userName" id="name" type="text" placeholder="Your Name" required />
+                    </div>
+
+                    <div class="formRow">
+                        <label for="mail">E-Mail</label>
+                        <input name="userEmail" id="mail" type="email" placeholder="example@mail.com" required />
+                    </div>
+
+
+                    <label for="commBox">Please enter any feedback you have here:</label>
+                    <textarea name="userFeedback" id="commBox" required></textarea>
+
+                </fieldset>
+                <div id="buttons">
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+        </main>
+        <footer>
+            <a href="http://www.github.com"><img src="images/github.png" alt="Github link" ></a>
+            <a href="http://www.linkedin.com"><img src="images/linkedin.png" alt="LinkedIn link" ></a>
+        </footer>
+    </body>
+</html>

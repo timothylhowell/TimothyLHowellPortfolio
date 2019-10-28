@@ -1,0 +1,32 @@
+div.navigation a {
+    color: $linkColor;
+    text-shadow: 1px -1px 1px rgba(0, 0, 0, 1);
+    transform: scale(1,1) translateY(0px);
+    transition: all .7s linear;
+    &:hover {
+        color: $clickedLinkColor;
+        text-shadow: 0px 15px 4px rgba(0, 0, 0, 0.5);
+        transform: scale(2,2) translateY(-15px);
+     }
+ }
+
+ @keyframes colorTransition {
+     0% {filter: grayscale(100%);}
+     10% {filter: grayscale(80%);}
+     20% {filter: grayscale(60%);}
+     30% {filter: grayscale(40%);}
+     40% {filter: grayscale(20%);}
+     50% {filter: grayscale(0%);}
+     60% {filter: grayscale(20%);}
+     70% {filter: grayscale(40%);}
+     80% {filter: grayscale(60%);}
+     90% {filter: grayscale(80%);}
+     100% {filter: grayscale(100%);}
+ }
+
+
+div.navigation {
+    img#headImage {
+        animation: colorTransition 15s linear infinite;
+    }
+}

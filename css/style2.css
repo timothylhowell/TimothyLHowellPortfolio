@@ -1,0 +1,33 @@
+/*
+   Timothy Howell Portfolio
+   Author: Timothy Howell
+   Filename: style2.css
+*/
+
+/* Table Styles */
+
+table.projects {
+	background: #006699;
+	color: white;
+	border: 10px outset black;
+	border-collapse: collapse;
+	font-size: 0.75em;
+	width: 100%;
+	margin-top: 0.75em;
+}
+
+
+/* Table Cell Styles */
+
+table.projects th, table.projects td {
+	border: 1px solid gray;
+}
+
+
+/* Table Caption Styles */
+
+table.projects caption {
+	caption-side: bottom;
+	text-align: right;
+	color: black;
+}

@@ -1,0 +1,74 @@
+/*=====================================
+  Mobile Styles: 0px to 480px
+  =====================================
+*/
+
+@media only screen and (max-width: 480px) {
+    
+    body {
+        background-image: none;
+        background-color: $mainColor;
+    }
+
+	div.navigation {
+        font-size: 1.5em;
+        img {
+            display: none;
+        }
+        a {
+            font-size: 0.7em;
+        }
+	}
+	
+	
+	div#mainSection  {
+        width: 100%;
+        p {
+            text-align: left;
+            font-size: 10pt;
+        }
+        figure {
+            display: none;
+        }
+       
+        
+	}
+    
+    
+}
+
+
+/*=====================================
+  Tablet Styles: 481px to 768px
+  =====================================
+*/
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+	
+	div.navigation {
+        font-size: 2em;
+        img {
+            width: 10%
+        }
+        p {
+            width: 100%;
+        }
+    }
+    
+    div#mainSection {
+        p {
+            width: 65%;
+            margin-left: 5%;
+        }
+        figure#basketFigure {
+            figcaption#basketCaption {
+                font-size: 8pt;
+            }
+        }
+    }
+
+    table.products {
+        margin-right: 10%;
+    }
+
+}

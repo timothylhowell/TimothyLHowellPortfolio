@@ -1,0 +1,10 @@
+@mixin easyBoxShadow {
+-webkit-box-shadow: -3px -1px 21px 9px rgba(0,0,0,0.37);
+-moz-box-shadow: -3px -1px 21px 9px rgba(0,0,0,0.37);
+box-shadow: -3px -1px 21px 9px rgba(0,0,0,0.37);
+}
+
+
+@mixin easyGradient {
+    background-image: linear-gradient(to bottom right, $mainColor, $secondaryColor);
+}

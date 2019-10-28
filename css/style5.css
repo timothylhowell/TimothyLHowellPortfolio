@@ -1,0 +1,55 @@
+/*
+   Timothy Howell Portfolio
+   Author: Timothy Howell
+   Filename: style5.css
+*/
+
+
+/*=====================================
+  Mobile Styles: 0px to 480px
+  =====================================
+*/
+
+@media only screen and (max-width: 480px) {
+	
+	div.navigation {
+		font-size: 1.5em;
+	}
+	
+	footer > a > img {
+		height: 5em;
+	}
+	
+	main > img {
+		display: none;
+	}
+	
+}
+
+
+/*=====================================
+  Tablet Styles: 481px to 768px
+  =====================================
+*/
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+	
+	div.navigation {
+		font-size: 2em;
+	}
+	
+	footer > a > img {
+		height: 5em;
+	}
+	
+	img#town {
+		height: 225px;
+		width: 225px;
+	}
+	
+	img#self {
+		height: 225px;
+		width: 225px;
+	}
+	
+}
